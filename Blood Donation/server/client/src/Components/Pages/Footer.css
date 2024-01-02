@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.Footer_Main_Container {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+
+.cds-footer {
+  background-color: #151515;
+  padding: 40px 0;
+}
+
+.cds-footer-container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.cds-footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cds-footer-ul {
+  list-style: none;
+}
+
+.cds-footer-col {
+  width: 33%;
+  padding: 0 15px;
+}
+
+.cds-footer-col h4 {
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.cds-footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #3385f8;
+  width: 50px;
+  height: 2px;
+}
+
+.cds-footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.cds-footer-col ul li a {
+  color: #ddd;
+  display: block;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cds-footer-col ul li a:hover {
+  color: #3385f8;
+  padding-left: 7px;
+}
+
+.cds-footer-col .social-links a {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 10px 10px 0;
+  line-height: 40px;
+  transition: all 0.5s ease;
+}
+
+.cds-footer-col .social-links a:hover {
+  color: #151515;
+  background-color: #fff;
+}
+
+@media (max-width: 767px) {
+  .cds-footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .cds-footer-col {
+    width: 100%;
+  }
+}

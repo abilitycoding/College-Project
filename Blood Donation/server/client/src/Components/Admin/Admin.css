@@ -1,0 +1,37 @@
+.Table_Container {
+  max-height: 75vh; /* Set a max height for the table container */
+  overflow-y: auto; /* Enable vertical scrolling for the container */
+}
+
+.Table_Content {
+  width: 100%;
+  table-layout: fixed; /* Ensure the table layout is fixed */
+}
+
+.Table_Heading {
+  position: sticky;
+  top: 0; /* Stick the header to the top */
+  background-color: #f8f9fa; /* Optional: Set a background color for the header */
+  z-index: 1; /* Ensure the header stays above the table body */
+}
+
+.Table_body {
+  max-height: 300px; /* Set a max height for the table body */
+  overflow-y: auto; /* Enable vertical scrolling for the table body */
+}
+
+/* Optional: Add some styling to the table cells for better readability */
+.Table_Content th,
+.Table_Content td {
+  white-space: nowrap; /* Prevent text wrapping in cells */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Show ellipsis (...) for overflowed text */
+}
+
+@media screen and (max-width: 768px) {
+  /* CSS rules for screens smaller than 768px */
+
+  .Admin_Settings {
+    padding-top: 10px !important;
+  }
+}

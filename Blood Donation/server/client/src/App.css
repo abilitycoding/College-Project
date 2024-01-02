@@ -1,0 +1,124 @@
+.bn3 {
+  display: inline-block;
+  padding: 0.5em 1.7em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid rgb(255, 255, 255);
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #dc3545;
+}
+
+.bn3:hover {
+  color: black;
+  background-color: #dc3545;
+}
+
+.bn4 {
+  display: inline-block;
+  padding: 0.5em 1.7em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid #dc3545;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+  text-align: center;
+  transition: all 0.2s;
+  /* background-color: #dc3545; */
+}
+
+.bn4:hover {
+  color: black;
+  background-color: #dc3545;
+}
+.cnt_1 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.slick-track {
+  display: flex;
+  gap: 10px;
+}
+
+.our-expert-mentors {
+  background-color: #ecf3f3 !important;
+}
+
+.most-popular-course {
+  background-color: rgb(250, 244, 237) !important;
+}
+
+.form-section {
+  background-color: whitesmoke !important;
+}
+
+.card-description {
+  min-height: 50px;
+}
+
+.mentor-card-description {
+  min-height: 100px;
+}
+
+.improve-img {
+  transform: rotate(3deg);
+}
+.css-1msn28t {
+  margin: 0;
+  font-size: 1rem;
+  font-family: "Cabin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol" !important;
+  font-weight: 400 !important;
+  line-height: 1.5;
+  color: #dc3545;
+  position: relative !important;
+  font-size: inherit;
+  font-weight: inherit;
+  background-color: unset;
+}
+
+.css-19dcp59 {
+  margin: 0;
+  font-size: 1rem;
+  font-family: "Cabin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: inherit;
+  font-weight: inherit;
+  position: relative;
+}
+
+.skill-svg {
+  position: absolute;
+  top: -60px;
+  right: -30px;
+}
+
+@media screen and (max-width: 768px) {
+  /* CSS rules for screens smaller than 768px */
+  .p-xs-5 {
+    padding: 48px 0px;
+  }
+  .form-padding {
+    padding: 48px 10px;
+  }
+}
+
+.sticky-navbar {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+}

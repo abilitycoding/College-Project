@@ -1,0 +1,3 @@
+export const LOGOUTUSER = "LOGOUTUSER";
+
+export const GETUSEREMAIL = "GETUSEREMAIL";
