@@ -1,0 +1,26 @@
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+button:hover {
+  background: transparent;
+}
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-color: transparent;
+  border: none !important;
+  border-radius: none !important;
+  transition: var(--bs-navbar-toggler-transition);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}

@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0629be9a.css",
+    "main.js": "/static/js/main.85813a11.js",
+    "static/js/401.295a7f07.chunk.js": "/static/js/401.295a7f07.chunk.js",
+    "static/js/69.9fffffbd.chunk.js": "/static/js/69.9fffffbd.chunk.js",
+    "static/js/252.baf50cdf.chunk.js": "/static/js/252.baf50cdf.chunk.js",
+    "static/js/818.0b3962ec.chunk.js": "/static/js/818.0b3962ec.chunk.js",
+    "static/js/808.3c74359b.chunk.js": "/static/js/808.3c74359b.chunk.js",
+    "static/css/568.306dedc1.chunk.css": "/static/css/568.306dedc1.chunk.css",
+    "static/js/568.340a1265.chunk.js": "/static/js/568.340a1265.chunk.js",
+    "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
+    "static/js/609.c8d28ec3.chunk.js": "/static/js/609.c8d28ec3.chunk.js",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.0629be9a.css.map": "/static/css/main.0629be9a.css.map",
+    "main.85813a11.js.map": "/static/js/main.85813a11.js.map",
+    "401.295a7f07.chunk.js.map": "/static/js/401.295a7f07.chunk.js.map",
+    "69.9fffffbd.chunk.js.map": "/static/js/69.9fffffbd.chunk.js.map",
+    "252.baf50cdf.chunk.js.map": "/static/js/252.baf50cdf.chunk.js.map",
+    "818.0b3962ec.chunk.js.map": "/static/js/818.0b3962ec.chunk.js.map",
+    "808.3c74359b.chunk.js.map": "/static/js/808.3c74359b.chunk.js.map",
+    "568.306dedc1.chunk.css.map": "/static/css/568.306dedc1.chunk.css.map",
+    "568.340a1265.chunk.js.map": "/static/js/568.340a1265.chunk.js.map",
+    "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map",
+    "609.c8d28ec3.chunk.js.map": "/static/js/609.c8d28ec3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0629be9a.css",
+    "static/js/main.85813a11.js"
+  ]
+}

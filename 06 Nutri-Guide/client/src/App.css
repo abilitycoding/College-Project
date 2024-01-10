@@ -1,0 +1,297 @@
+.home_box {
+  position: absolute;
+  top: 76px;
+  left: 0;
+  right: 0;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+  box-sizing: border-box;
+  /*reset Chrome user agent styles*/
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-before: 0px;
+  -webkit-padding-after: 0px;
+  -webkit-padding-start: 0px;
+  -webkit-padding-end: 0px;
+}
+
+html {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("http://hdsa.org/wp-content/themes/hdsa/images/img_livingHD_nutrition1.jpg")
+      no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  margin-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  display: block;
+  text-align: left;
+  padding-left: 30px;
+  color: white;
+  font-size: 40px;
+}
+
+p {
+  display: block;
+  padding: 10px;
+  color: white;
+}
+
+.search-list,
+.show-recipe {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.js-search-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
+}
+
+.wrapper-input {
+  display: inline-block;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+label {
+  margin-right: 0px;
+}
+
+input,
+button {
+  border: 1px solid grey;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+}
+
+input {
+  margin-top: 10px;
+  border-radius: 6px;
+  width: 250px;
+}
+
+button {
+  background-color: #dbdbdb;
+  color: #744e2e;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+.accuracy-note {
+  font-size: 12px;
+  color: #e0ffff;
+}
+
+.search-update-text {
+  display: block;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.search-result {
+  width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-result > p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.query-results {
+  list-style: none;
+  text-align: center;
+}
+
+.query-results > li {
+  color: #551700;
+  font-size: 18px;
+  border: 1px solid #551700;
+  border-radius: 3px;
+  padding: 10px;
+  background-image: linear-gradient(
+    rgba(255, 215, 15, 1),
+    rgba(255, 215, 15, 0.5)
+  );
+  font-weight: 500px;
+}
+
+.item-title {
+  text-align: center;
+  color: #aa2e00 !important;
+  font-size: 20px;
+}
+
+.image-area {
+  line-height: 120px;
+  padding: 10px;
+  text-align: center;
+}
+
+.recipe-image {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  padding: 1px;
+  border: 1px solid #021a40;
+  margin-left: auto;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+.recipe-button-area {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+  margin-left: 25px;
+}
+
+.full-recipe-text {
+  color: #aa2e00;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.instructions {
+  font-size: 17px;
+}
+
+.result-wrapper {
+  text-align: center;
+  width: 100%;
+}
+
+.show-recipe {
+  background-image: linear-gradient(
+    rgba(255, 215, 15, 1),
+    rgba(255, 215, 15, 0.5)
+  );
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.show-recipe-p {
+  background-image: linear-gradient(
+    rgba(255, 215, 15, 1),
+    rgba(255, 215, 15, 0.5)
+  );
+  margin-top: 30px;
+  padding-bottom: 45px;
+  border-radius: 7px;
+}
+
+.ingredients,
+.nutrition {
+  display: inline-block;
+  border: 1px solid black;
+  height: 400px;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  overflow-y: auto;
+}
+
+.result-wrapper h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #aa2e00;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: black;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result-wrapper ul {
+  color: #34415e;
+  list-style: none;
+}
+
+.result-wrapper li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+footer ul {
+  width: 50%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  width: auto;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer a {
+  color: white;
+  font-size: 120%;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: grey;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 475px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .wrapper-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .ingredients,
+  .nutrition,
+  .preparation {
+    width: 100%;
+  }
+}
