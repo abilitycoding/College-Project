@@ -1,0 +1,25 @@
+.bus-container{
+    width: 300px;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.seat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.selectedSeat{
+    background-color: var(--primary);
+    color: white;
+}
+.bookedSeat{
+    background-color: gray;
+    color: white;
+    pointer-events: none;
+    cursor: disabled;
+
+}
